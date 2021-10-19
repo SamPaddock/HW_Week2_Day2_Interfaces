@@ -1,5 +1,4 @@
 class Truck() :Vehicle() {
-    override var vehicleType: String = "Truck"
 
     //Increase a sports car by 5
     override fun speedUp() {speed += 5}

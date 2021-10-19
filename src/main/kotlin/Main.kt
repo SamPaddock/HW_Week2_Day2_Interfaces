@@ -7,6 +7,7 @@ fun main() {
 
 fun vehicleOne(){
     val sportsCar = SportCar()
+    sportsCar.setVehicleType("Sports Car")
     sportsCar.startVehicle()
     sportsCar.speedUp()
     sportsCar.speedUp()
@@ -16,6 +17,7 @@ fun vehicleOne(){
 }
 fun vehicleTwo(){
     val truck = Truck()
+    truck.setVehicleType("Truck")
     truck.startVehicle()
     truck.speedUp()
     truck.changeGear(2)
@@ -31,6 +33,7 @@ fun vehicleTwo(){
 }
 fun vehicleThree(){
     val truck2 = Truck()
+    truck2.setVehicleType("Truck")
     truck2.startVehicle()
     truck2.speedUp()
     truck2.changeGear(2)
